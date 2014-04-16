@@ -69,7 +69,7 @@ module Axml
       when TYPE_INT_HEX
         "@TYPE_INT_HEX"
       when TYPE_INT_BOOLEAN
-        "@TYPE_INT_BOOLEAN => #{data.to_s 16}"
+        data != 0
       when TYPE_FIRST_COLOR_INT
         "@TYPE_FIRST_COLOR_INT"
       when TYPE_INT_COLOR_ARGB8
